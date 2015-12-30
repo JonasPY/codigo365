@@ -1,0 +1,79 @@
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #67b1d6;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  background-image: url("/img/header.png");
+}
+header .logo {
+  padding: 14px 0 0 18px;
+}
+header .tipo {
+  float: right;
+  color: #fff;
+  font-size: 42px;
+  font-weight: normal;
+  font-style: italic;
+  font-family: Ubuntu;
+  line-height: 100px;
+  margin: 0 26px 0 0;
+}
+.wrap .breadcrumbs {
+  font-family: Ubuntu;
+  overflow: hidden;
+}
+.wrap .breadcrumbs ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.wrap .breadcrumbs ul li {
+  float: left;
+  line-height: 32px;
+  list-style: none;
+  font-size: 14px;
+}
+.wrap .breadcrumbs ul li:first-child a {
+  padding-left: 10px;
+}
+.wrap .breadcrumbs ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 0 0 35px;
+  background: #67b1d6;
+  position: relative;
+  display: block;
+  float: left;
+}
+.wrap .breadcrumbs ul li a:after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 20px solid #67b1d6;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  left: 100%;
+  z-index: 2;
+}
+.wrap .breadcrumbs ul li a:before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 22px solid #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1;
+}

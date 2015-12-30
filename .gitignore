@@ -1,1 +1,7 @@
 *.sh
+*.sketch
+*.jade
+*.styl
+*.codekit
+*.sublime-workspace
+*.DS_Store
