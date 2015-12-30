@@ -7,7 +7,7 @@ header {
   width: 100%;
   height: 100px;
   background-size: cover;
-  background-image: url("/img/header.png");
+  background-image: url("../img/header.png");
 }
 header .logo {
   padding: 14px 0 0 18px;
