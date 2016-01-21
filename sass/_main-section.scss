@@ -1,0 +1,18 @@
+// White Color
+$whiteColor: #fff;
+section {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    min-height:auto !important;
+    margin:0;
+    padding:60px 0 100px;
+    overflow: hidden;
+    text-align: center;
+    background-color:$whiteColor;
+}
+.main-section {
+    height: 700px;
+    margin: 0;
+    padding:0;
+}

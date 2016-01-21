@@ -5,3 +5,7 @@
 *.codekit
 *.sublime-workspace
 *.DS_Store
+*.txt
+bourbon
+fondo.html
+videos.html
